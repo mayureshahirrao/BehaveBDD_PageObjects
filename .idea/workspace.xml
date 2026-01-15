@@ -1,25 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="087e4cf7-5b34-438b-8290-e7fec0080d1b" name="Changes" comment="" />
+    <list default="true" id="087e4cf7-5b34-438b-8290-e7fec0080d1b" name="Changes" comment="Behave BDD Project with Page Objects started">
+      <change afterPath="$PROJECT_DIR$/Configurations/config.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Utilities/ConfigReader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Utilities/log_util.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/behave.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/environment.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/page_objects/base_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/steps/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "mayureshahirrao"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/mayureshahirrao/BehaveBDD_PageObjects.git",
+    "accountId": "f31e3464-8c4d-4a22-97fd-edfb7c3d4ebf"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 4
 }]]></component>
   <component name="ProjectId" id="38IgM65jGUuY5AI2ESe7EICoJyX" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/Programming/PythonProgramming/BehaveBDD_PageObjects/features/page_objects",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Programming\PythonProgramming\BehaveBDD_PageObjects\features\page_objects" />
+      <recent name="D:\Programming\PythonProgramming\BehaveBDD_PageObjects" />
+      <recent name="D:\Programming\PythonProgramming\BehaveBDD_PageObjects\Utilities" />
+      <recent name="D:\Programming\PythonProgramming\BehaveBDD_PageObjects\features" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -35,7 +89,40 @@
       <option name="presentableId" value="Default" />
       <updated>1768492447640</updated>
     </task>
+    <task id="LOCAL-00001" summary="Behave BDD Project with PAge Objects started">
+      <option name="closed" value="true" />
+      <created>1768492611175</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1768492611175</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Behave BDD Project with Page Objects started">
+      <option name="closed" value="true" />
+      <created>1768492751976</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1768492751976</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Behave BDD Project with PAge Objects started" />
+    <MESSAGE value="Behave BDD Project with Page Objects started" />
+    <option name="LAST_COMMIT_MESSAGE" value="Behave BDD Project with Page Objects started" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
