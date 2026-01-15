@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="087e4cf7-5b34-438b-8290-e7fec0080d1b" name="Changes" comment="Behave BDD Project with Page Objects started">
-      <change afterPath="$PROJECT_DIR$/Configurations/config.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Utilities/ConfigReader.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Utilities/log_util.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/behave.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/features/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/features/environment.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/features/page_objects/base_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/features/steps/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="087e4cf7-5b34-438b-8290-e7fec0080d1b" name="Changes" comment="Basic Structure Created">
+      <change afterPath="$PROJECT_DIR$/features/page_objects/registration_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/registration.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/steps/registration_steps.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +57,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "last_opened_file_path": "D:/Programming/PythonProgramming/BehaveBDD_PageObjects/features/page_objects",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -105,15 +99,50 @@
       <option name="project" value="LOCAL" />
       <updated>1768492751976</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Basic Structure Created">
+      <option name="closed" value="true" />
+      <created>1768494074609</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1768494074609</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -122,7 +151,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Behave BDD Project with PAge Objects started" />
     <MESSAGE value="Behave BDD Project with Page Objects started" />
-    <option name="LAST_COMMIT_MESSAGE" value="Behave BDD Project with Page Objects started" />
+    <MESSAGE value="Basic Structure Created" />
+    <option name="LAST_COMMIT_MESSAGE" value="Basic Structure Created" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
