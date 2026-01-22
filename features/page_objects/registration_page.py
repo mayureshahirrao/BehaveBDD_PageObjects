@@ -8,6 +8,13 @@ class RegistrationPage(BasePage):
     def open(self, url):
         self.driver.get(url)
 
+    def get_page_title(self):
+        return self.driver.title
+
+    def validate_page_title(self, expected_title):
+        actual_title = self.get_page_title()
+        assert expected_title in actual_title, f"Expected title '{expected_title}' not found in actual title '{actual_title}'"
+
     def set_name(self, name):
         self.enter_value('name_NAME', name, self.config_file_path)
 

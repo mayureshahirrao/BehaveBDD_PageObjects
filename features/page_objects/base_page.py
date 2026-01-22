@@ -143,6 +143,7 @@ class BasePage:
             )
 
         select = Select(dropdown)
+        # print(f"Country is: {value}")
         select.select_by_visible_text(value)
 
         log.logger.info(f"Selected value '{value}' from dropdown with locator: {str(locator)}")
