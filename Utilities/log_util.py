@@ -10,7 +10,7 @@ class Logger():
 
         format = logging.Formatter('%(asctime)s - %(filename)s:[%(lineno)s] - %(levelname)s - %(message)s')
         current_time = time.strftime("%Y-%m-%d_%H_%M_%S", time.localtime())
-        if cwd =="D:\\Programming\\PythonProgramming\\BehaveBDD_PageObjects":
+        if cwd.endswith("BehaveBDD_PageObjects"):
             self.log_file_name = f"Logs\\log_{current_time}.log"
         else:
             self.log_file_name = f"..\\Logs\\log_{current_time}.log"
