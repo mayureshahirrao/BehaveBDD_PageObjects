@@ -1,0 +1,8 @@
+2026-01-22 22:43:00,856 - base_page.py:[105] - INFO - Entered value 'Mayuresh' in element with locator: name_NAME
+2026-01-22 22:43:00,910 - base_page.py:[105] - INFO - Entered value '8927342' in element with locator: phone_CSS
+2026-01-22 22:43:00,973 - base_page.py:[105] - INFO - Entered value 'trainer@way2automation.com' in element with locator: email_XPATH
+2026-01-22 22:43:01,020 - base_page.py:[149] - INFO - Selected value 'India' from dropdown with locator: country_XPATH
+2026-01-22 22:43:01,056 - base_page.py:[105] - INFO - Entered value 'Pune' in element with locator: city_XPATH
+2026-01-22 22:43:01,100 - base_page.py:[105] - INFO - Entered value 'md_ahirrao' in element with locator: username_XPATH
+2026-01-22 22:43:01,155 - base_page.py:[105] - INFO - Entered value 'lsajdfksf' in element with locator: password_XPATH
+2026-01-22 22:43:01,200 - base_page.py:[67] - INFO - Clicked on element with locator: submit_XPATH
