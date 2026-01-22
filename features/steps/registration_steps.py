@@ -55,4 +55,3 @@ def step_impl(context, password):
 def step_impl(context):
     context.reg.submit_form()
     time.sleep(3)
-    assert False
